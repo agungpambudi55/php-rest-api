@@ -1,0 +1,5 @@
+# CRUD REST API PHP
+## Apa itu API?
+API (Application Programming Interface) adalah sebuah web service yang berguna untuk menjembatani aplikasi dengan database, API tidak tergantung pada bahasa pemrograman tertentu. Dengan adanya API maka bisa berkomunikasi dengan aplikasi yang berbeda bahasa pemrograman. Misalnya Aplikasi A menggunakan bahasa PHP dan Aplikasi B menggunakan bahasa Java, kita bisa mengakses informasi aplikasi A untuk ditampilkan di aplikasi B dengan bantuan API, jadi tidak harus tahu databasenya seperti apa tinggal menggunakan API yang sudah disediakan oleh developer API aplikasi tersebut.
+
+Untuk bisa menggunakan API maka harus melihat dulu dokumentasi dari developer API, kita tidak bisa berkreasi membuat cara sendiri. Misalnya untuk mengakses data apa saja yang dapat diakses, bagaimana cara mengaksesnya, apakah bersifat publik, atau apakah harus menggunakan token semua tergantung developer API. Format yang dipakai biasanya berbentuk XML atau JSON, format yang sering dipakai adalah JSON (Javascript Object Notation).
