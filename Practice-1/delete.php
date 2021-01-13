@@ -6,7 +6,7 @@ $getdata = mysqli_query($koneksi,"SELECT * FROM mahasiswa WHERE npm = '$npm'");
 $rows = mysqli_num_rows($getdata);
 
 $delete = "DELETE FROM mahasiswa WHERE npm = '$npm'";
-$exedelete = mysqli_query($koneksi,$delete);
+$exedelete = mysqli_query($connection,$delete);
 
 $respose = array();
 

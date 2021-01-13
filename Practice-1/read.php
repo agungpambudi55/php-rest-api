@@ -2,7 +2,7 @@
 include_once('connection.php');
 
 $query = "SELECT * FROM mahasiswa";
-$result = mysqli_query($koneksi,$query);
+$result = mysqli_query($connection,$query);
 $array_data = array();
 
 while($baris = mysqli_fetch_assoc($result)) {

@@ -4,5 +4,5 @@ define('USERNAME','root');
 define('PASSWORD','');
 define('DB_NAME','practice_crud');
 
-$koneksi = new mysqli(HOSTNAME, USERNAME, PASSWORD, DB_NAME) or die (mysqli_errno());
+$connection = new mysqli(HOSTNAME, USERNAME, PASSWORD, DB_NAME) or die (mysqli_errno());
 ?>

@@ -6,7 +6,7 @@ $nama = addslashes(htmlentities($_POST['nama']));
 $prodi = addslashes(htmlentities($_POST['prodi']));
 $fakultas = addslashes(htmlentities($_POST['fakultas']));
 $insert = "INSERT INTO mahasiswa(npm,nama,prodi,fakultas) VALUES ('$npm','$nama','$prodi','$fakultas')";
-$exeinsert = mysqli_query($koneksi,$insert);
+$exeinsert = mysqli_query($connection,$insert);
 $response = array();
 
 if($exeinsert){

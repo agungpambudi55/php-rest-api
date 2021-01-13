@@ -9,7 +9,7 @@ $getdata = mysqli_query($koneksi,"SELECT * FROM mahasiswa WHERE npm='$npm'");
 $rows = mysqli_num_rows($getdata);
 
 $update = "UPDATE mahasiswa SET nama='$nama',prodi='$prodi',fakultas='$fakultas' WHERE npm='$npm'";
-$exequery = mysqli_query($koneksi,$update);
+$exequery = mysqli_query($connection,$update);
 $respose = array();
 
 if($rows > 0) {
